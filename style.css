@@ -6,6 +6,20 @@ body {
 .footer {
     background-color: #1F2937;
     color: whitesmoke;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.upper,
+.leftlinks {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
 }
 
 .one {
@@ -22,14 +36,30 @@ body {
 button {
     background-color: #3882f6;
     color: white;
+    border-radius: 7px;
+    width: 100px
 }
 
-.leftlinks {
+.lowerhero {
     display: flex;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    gap: 100px;
 
 }
 
-.upper {
+.imagebox {
+    width: 1000px;
+    height: 200px;
     display: flex;
-    justify-content: space-around;
+    background-color: #aaaaaa;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
