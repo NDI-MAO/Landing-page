@@ -37,7 +37,8 @@ button {
     background-color: #3882f6;
     color: white;
     border-radius: 7px;
-    width: 100px
+    width: 100px;
+    padding: 3px;
 }
 
 .lowerhero {
@@ -62,4 +63,35 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.title {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20%;
+    padding-right: 20%;
+    justify-content: space-between;
+    padding-bottom: 100px;
+
+}
+
+.box {
+    max-width: 150px;
+    text-align: center;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-width: 3px;
+    border-radius: 20px;
 }
