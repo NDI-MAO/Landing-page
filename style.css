@@ -6,12 +6,12 @@ body {
 .footer {
     background-color: #1F2937;
     color: whitesmoke;
-    padding-left: 12%;
-    padding-right: 12%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 48px;
     color: #f9faf8;
     font-weight: bolder;
 }
@@ -21,38 +21,42 @@ body {
     display: flex;
     justify-content: space-between;
     align-content: center;
+    font-size: 30px;
+}
+
+
+.lowerhero {
+    display: flex;
+    padding-bottom: 150px;
+    padding-top: 150px;
+    gap: 100px;
+
 }
 
 .one {
-    font-size: 48px;
+    font-size: 96px;
     font-weight: bolder;
     color: #f9faf8;
 }
 
 .two {
-    font-size: 18px;
+    font-size: 36px;
     color: #e5e7eb;
 }
 
 button {
     background-color: #3882f6;
+    font-size: 30px;
     color: white;
-    border-radius: 7px;
-    width: 100px;
-    padding: 3px;
-}
-
-.lowerhero {
-    display: flex;
-    padding-bottom: 120px;
-    padding-top: 50px;
-    gap: 100px;
-
+    border-radius: 15px;
+    width: 200px;
+    height: 60px;
 }
 
 .imagebox {
-    width: 1000px;
-    height: 200px;
+    width: 2000px;
+    height: 500px;
+    font-size: 30px;
     display: flex;
     background-color: #6d747d;
     text-align: center;
@@ -68,8 +72,10 @@ button {
 
 .title {
     text-align: center;
-    font-size: 36px;
+    font-size: 72px;
     color: #1F2937;
+    padding: 50px;
+    font-weight: bolder;
 
 }
 
@@ -85,33 +91,36 @@ button {
 
 .caption {
     padding-top: 10px;
+    font-size: 32px;
+    color: #6d747d;
 }
 
 .box {
-    max-width: 150px;
+    max-width: 300px;
     text-align: center;
 }
 
 .square {
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
     border-style: solid;
     border-color: #3882f6;
-    border-width: 3px;
-    border-radius: 20px;
+    border-width: 8px;
+    border-radius: 40px;
 }
 
 .lowermiddle {
     background-color: #e5e7eb;
     padding-left: 22%;
     padding-right: 22%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    color: #1F2937;
 }
 
 .quote {
     text-align: left;
-    font-size: 36px;
+    font-size: 72px;
     font-style: italic;
     font-weight: lighter;
 }
@@ -120,7 +129,7 @@ button {
     text-align: end;
     padding-right: 40px;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 48px;
 }
 
 .callta {
@@ -129,31 +138,39 @@ button {
     color: #e5e7eb;
     margin: 5% 12% 5% 12%;
     justify-content: space-around;
-    border-radius: 10px;
+    border-radius: 20px;
     align-items: center;
 }
 
 .message {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 #title {
-    font-size: 24px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#line2 {
+    font-size: 36px;
+    font-weight: lighter;
 }
 
 #signup {
-    height: 35px;
-    width: 120px;
+    height: 70px;
+    width: 240px;
     border-color: #e5e7eb;
+    border-width: 3px;
 
 }
 
 footer {
-    height: 100px;
+    height: 200px;
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
+    font-size: 36px;
 
 }
