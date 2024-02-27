@@ -21,16 +21,17 @@ body {
     display: flex;
     justify-content: space-between;
     align-content: center;
+    font-size: 18px;
 }
 
-.one {
+.maintitle {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
 }
 
-.two {
-    font-size: 18px;
+.subtitle {
+    font-size: 24px;
     color: #e5e7eb;
 }
 
@@ -52,7 +53,7 @@ button {
 
 .imagebox {
     width: 1000px;
-    height: 200px;
+    height: 300px;
     display: flex;
     background-color: #6d747d;
     text-align: center;
