@@ -13,6 +13,7 @@ body {
 .logo {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: bolder;
 }
 
 .upper,
@@ -43,7 +44,7 @@ button {
 
 .lowerhero {
     display: flex;
-    padding-bottom: 50px;
+    padding-bottom: 120px;
     padding-top: 50px;
     gap: 100px;
 
@@ -53,7 +54,7 @@ button {
     width: 1000px;
     height: 200px;
     display: flex;
-    background-color: #aaaaaa;
+    background-color: #6d747d;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -82,6 +83,10 @@ button {
 
 }
 
+.caption {
+    padding-top: 10px;
+}
+
 .box {
     max-width: 150px;
     text-align: center;
@@ -94,4 +99,61 @@ button {
     border-color: #3882f6;
     border-width: 3px;
     border-radius: 20px;
+}
+
+.lowermiddle {
+    background-color: #e5e7eb;
+    padding-left: 22%;
+    padding-right: 22%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.quote {
+    text-align: left;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.author {
+    text-align: end;
+    padding-right: 40px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.callta {
+    display: flex;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    margin: 5% 12% 5% 12%;
+    justify-content: space-around;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.message {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#title {
+    font-size: 24px;
+}
+
+#signup {
+    height: 35px;
+    width: 120px;
+    border-color: #e5e7eb;
+
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
 }
