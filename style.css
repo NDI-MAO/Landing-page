@@ -31,7 +31,7 @@ body {
 }
 
 .subtitle {
-    font-size: 24px;
+    font-size: 18px;
     color: #e5e7eb;
 }
 
@@ -140,7 +140,8 @@ button {
 }
 
 #title {
-    font-size: 24px;
+    font-size: 36px;
+    font-weight: bolder;
 }
 
 #signup {
